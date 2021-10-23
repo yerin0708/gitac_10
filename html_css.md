@@ -77,11 +77,55 @@ https://www.w3schools.com/html/html_attributes.asp
 >   - 이미지, 비디오, 오디오
 
 ### HTML Heading
+https://www.w3schools.com/html/html_head.asp
 
 - h : (h)eading : 제목 표시 태그
 - h1 ~ h6 : h1 - 가장 큰 제목
 
 ### HTML Paragraph
+https://www.w3schools.com/html/html_paragraphs.asp
 
 - p : (p)aragraph : 단락 표시 태그
+- br : line (br)eak - 강제 줄바꿈 태그 / 빈요소(Empty Element)
+- &nbsp; : (N)on-(B)reak (Sp)ace - Entity code
+- hr : (H)orizontal (R)ule - 수평선 / 빈 요소(Empty Element)
 
+### HTML link
+https://www.w3schools.com/html/html_links.asp
+
+- 다른 페이지로 연결
+- a : (a)nchor
+- href : Hypertext Reference : 웹페이지 참조주소
+
+```
+<a href="이동할웹페이지의url" target="_blank">링크이름</a>
+
+target = "_blank" : 새 창(탭) 열기
+```
+
+### HTML list
+https://www.w3schools.com/html/html_lists.asp
+
+- 순서없는 목록 : ul - (U)nordered (L)ist
+- 순서있는 목록 : ol - (O)rdered (L)ist
+- 목록 항목 : li - (L)ist (I)tem
+- 설명 목록
+  - dl : (D)escription (L)ist
+  - dt : (D)escription (T)itle
+  - dd : (D)escription (D)ata 
+- 원하는 목록의 형태 : 직접 입력해서 사용
+
+```
+<ul>
+  <li>항목 내용</li>
+</ul>
+
+<ol>
+  <li>항목 내용</li>
+</ol>
+
+<dl>
+  <dt>목록 주제(제목)</dt>
+  <dd>주제애 대한 설명</dd>
+</dl>
+```
