@@ -78,9 +78,10 @@ https://www.w3schools.com/html/html_attributes.asp
 
 ### HTML Heading
 
-- h : (h)eading
+- h : (h)eading : 제목 표시 태그
 - h1 ~ h6 : h1 - 가장 큰 제목
 
-```
+### HTML Paragraph
 
-```
+- p : (p)aragraph : 단락 표시 태그
+
