@@ -38,6 +38,6 @@
 > 프로그래밍 언어 번역과정
 - compile : Ex) 통번역
 - interprete : Ex) 동시통역
-- 웹 Front End : 
+- 웹 Front End : Render
 
 
